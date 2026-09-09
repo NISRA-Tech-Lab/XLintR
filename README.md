@@ -27,15 +27,9 @@ The underlying data may be relatively straightforward, but the **presentation st
 
 ## Installation
 
-The package is currently under development.
-
-If working from a local package project:
-
 ```r
-devtools::load_all()
+remotes::install_github("NISRA-Tech-Lab/XLintR")
 ```
-
-Once the package is hosted remotely, installation instructions can be added here.
 
 ## Basic usage
 
