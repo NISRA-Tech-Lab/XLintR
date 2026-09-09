@@ -1,0 +1,21 @@
+Package: XLintR
+Title: Assess the Structural Complexity of Statistical Tables
+Version: 0.0.0.9000
+Authors@R:
+    person("NISRA", "TechLab", email = "techlab@nisra.gov.uk",
+           role = c("aut", "cre"))
+Description: Detects table-like structures in Excel workbooks and assesses
+    their structural complexity. Provides diagnostic measures and
+    recommendations intended to help authors produce tables that are
+    easier for users to interpret.
+License: MIT + file LICENSE
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 8.0.0
+Imports:
+    dplyr,
+    openxlsx2,
+    purrr,
+    stringr,
+    tibble,
+    rlang
